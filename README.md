@@ -27,3 +27,6 @@ $ mkdir ~/share/.ssh
 $ cat ~/.ssh/id_rsa.pub >> ~/share/.ssh/authorized_keys
 $ ssh ubuntu@localhost -p 2022
 ```
+
+- vagrantがインストールされているPCでhttp://localhost:8080を実行するとdockerコンテナで動作するhostに対しても8080でリクエストされる
+- shareディレクトリは全てのホストで共有される
